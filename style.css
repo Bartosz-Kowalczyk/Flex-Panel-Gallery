@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background: #ffc600;
+  background: #41474e;
   font-family: "helvetica neue";
   font-size: 20px;
   font-weight: 200;
@@ -124,17 +124,17 @@ body {
 }
 
 .circle {
-  animation: spin 2s linear infinite;
-  border: 15px solid #000000;
-  border-radius: 50%;
-  border-top: 10px rgb(255, 255, 255);
-  height: 100px;
-  width: 100px;
   display: none;
 }
 
 .circle.active {
+  animation: spin 2s linear infinite;
+  border-radius: 50%;
+  border: 15px solid #4e5d6c;
+  border-top: 15px solid rgb(255, 255, 255);
   display: block;
+  height: 100px;
+  width: 100px;
 }
 
 @keyframes spin {
